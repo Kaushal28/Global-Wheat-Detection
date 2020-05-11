@@ -1,4 +1,4 @@
-# # [Global-Wheat-Detection](https://www.kaggle.com/c/global-wheat-detection)
+# [Global-Wheat-Detection](https://www.kaggle.com/c/global-wheat-detection)
 
 The challenge in this Kaggle competition is to detect the wheat heads and draw bounding boxes around all the detected wheat heads in the given image. Here are a few example of the predictions generated using FasterRCNN model:
 
