@@ -50,3 +50,8 @@ Here are a few approaches I tried to approach the problem with brief description
 - 2 rounds of psuedo labeling
 - 12 epochs on augmented dataset (mentioned on exp #5) and 4 epochs/round for training on pseudo labels
 
+ ## Experiment #7 (0.6582 on public LB)
+- Used model: COCO Pre-trained FasterRCNN
+- Random Brightness, Contrass, Horizontal and Vertical flips, Hue Saturation Value Image Augmentations and Random Cutout (with handling of bounding boxes)
+- No pseudo labeling
+- 20 epochs on augmented dataset: https://www.kaggle.com/kaushal2896/gwdaugmented/version/4
