@@ -37,3 +37,16 @@ Here are a few approaches I tried to approach the problem with brief description
 - No image augmentations
 - 3 rounds of training on pseudo Labels
 - 5 epochs to train on original data, 4 epochs/round for training on pseudo labels
+
+ ## Experiment #5 (0.6498 on public LB)
+- Used model: COCO Pre-trained FasterRCNN
+- Random Brightness, Contrass, Horizontal and Vertical flips and Hue Saturation Value Image Augmentations
+- No pseudo labels
+- 12 epochs on augmented dataset: https://www.kaggle.com/kaushal2896/gwdaugmented/version/3
+
+ ## Experiment #6 (0.6826 on public LB)
+- Used model: COCO Pre-trained FasterRCNN
+- Random Brightness, Contrass, Horizontal and Vertical flips and Hue Saturation Value Image Augmentations
+- 2 rounds of psuedo labeling
+- 12 epochs on augmented dataset (mentioned on exp #5) and 4 epochs/round for training on pseudo labels
+
