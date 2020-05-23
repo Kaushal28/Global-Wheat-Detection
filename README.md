@@ -61,3 +61,7 @@ Here are a few approaches I tried to approach the problem with brief description
 - Random Brightness, Contrass, Horizontal and Vertical flips, Hue Saturation Value Image Augmentations
 - No pseudo labeling
 - 5 epochs on augmented dataset: https://www.kaggle.com/toomuchdataerror/resnet101trainedmodel
+
+## Experiment #9 (0.6817 on public LB)
+- Ensemble of Exp. #8 and Exp. #7
+- Used WBF (Weighted Boxes Fusion) as an ensemble technique.
