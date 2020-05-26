@@ -66,7 +66,7 @@ Here are a few approaches I tried to approach the problem with brief description
 - Ensemble of Exp. #8 and Exp. #7
 - Used WBF (Weighted Boxes Fusion) as an ensemble technique.
 
-## Experiment #9 (0.6824 on public LB)
+## Experiment #10 (0.6824 on public LB)
 - Used model: COCO Pre-trained FasterRCNN with ResNet101 backbone
 - Random Brightness, Contrass, Horizontal and Vertical flips, Hue Saturation Value Image Augmentations
 - 5-fold Cross Validation with WBF ensemble
