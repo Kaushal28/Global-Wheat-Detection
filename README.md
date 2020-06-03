@@ -84,3 +84,8 @@ Here are a few approaches I tried to approach the problem with brief description
 - No CV
 - 3 epochs
 
+## Experiment #11 (TBD on public LB)
+- Used model: Pretrained EfficientDet D5
+- Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
+- No CV
+- 20 epochs
