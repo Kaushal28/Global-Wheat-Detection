@@ -78,13 +78,13 @@ Here are a few approaches I tried to approach the problem with brief description
 - 5-fold Cross Validation with WBF ensemble
 - 20 epochs per fold
 
-## Experiment #10 (0.6859 on public LB)
+## Experiment #12 (0.6859 on public LB)
 - Used model: Pretrained EfficientDet D5
 - Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
 - No CV
 - 3 epochs
 
-## Experiment #11 (TBD on public LB)
+## Experiment #13 (TBD on public LB)
 - Used model: Pretrained EfficientDet D5
 - Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
 - No CV
