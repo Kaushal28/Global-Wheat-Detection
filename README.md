@@ -89,3 +89,10 @@ Here are a few approaches I tried to approach the problem with brief description
 - Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
 - No CV
 - 20 epochs
+
+
+## Experiment #14 (0.7194 on public LB)
+- Used model: Pretrained EfficientDet D5
+- Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
+- 5 fold CV with EBF ensemble
+- 30 epochs per fold
