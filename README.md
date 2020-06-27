@@ -90,9 +90,19 @@ Here are a few approaches I tried to approach the problem with brief description
 - No CV
 - 20 epochs
 
-
 ## Experiment #14 (0.7194 on public LB)
 - Used model: Pretrained EfficientDet D5
 - Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
 - 5 fold CV with EBF ensemble
 - 30 epochs per fold
+
+## Experiment #15 (0.7490 on public LB)
+- Pretraied two EfficientDet D5 models trained on full dataset for 30 epochs
+- Horizontal and Vertical flips, Only one of Random Brightness Contrass or Hue Saturation Value Image Augmentations
+- Pseudo labeling + TTA + Ensemble
+
+## Experiment #16 (0.7432 on public LB)
+- Pretrained YOLOv5x
+- Default yolov5 augmentations (includes all above augmentations)
+- 5 Fold CV
+- 35 epochs per fold
